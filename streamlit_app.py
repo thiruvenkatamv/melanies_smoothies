@@ -4,9 +4,9 @@ from snowflake.snowpark.functions import col
 # Write directly to the app
 st.title(f" My Parents New Healthy Diner ")
 st.write(b" Breakfast Menu ")
-st.write("\033[1mThis text will be bold.\033[0m")
-st.write("This text is normal again.")
-st.write(" Omega 3 & Blueberry Oatmeal Kale, Spinach & Rocket Smoothie Hard-Boiled Free-Range Egg")
+st.write("Omega 3 & Blueberry Oatmeal Kale")
+st.write("Spinach & Rocket Smoothie")
+st.write("Hard-Boiled Free-Range Egg")
 st.stop()
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
